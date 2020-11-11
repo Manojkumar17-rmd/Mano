@@ -1,0 +1,69 @@
+
+<body style="background-color:powderblue;">
+
+
+<form action='/details' method='post'>
+           
+            
+    
+    <input type='text' name='name' placeholder='Your Username'/> <br>
+    <input type='text' name='mail' placeholder='Your Mail ID'/> <br>
+    
+   
+    <input type="number" name="age" placeholder='Your Age' size="2" maxlength="2"/> <br>
+     <label> Gender: </label>
+    <input type="radio" value="female" name="gender">Female
+    <input type="radio" value="male" name="gender">Male<br>
+     <select id="city" name="city"><option disabled selected>--Choose City--</option>
+            <optgroup label="Metros"><option>Chennai</option>
+                                     <option>Coimbatore</option>
+                                     <option>Madurai</option>
+                                     <option>Ramanathapuram</option>
+            </optgroup>
+            </select> <br>
+ <!-- <fieldset>      
+        <legend>Which Department</legend>      
+        <input type="checkbox" name="Department" value="Product">Product<br>     
+        <input type="checkbox" name="Department" value="Service">Service<br>      
+        <input type="checkbox" name="Department" value="Admin">Admin<br>      
+        <br>  
+        </fieldset>    
+   <!--  <input type='text' name='pass' placeholder='Your Password' /> <br>
+    <label> Gender: </label>
+    <input type="radio" value="f" name="gender">Female
+    <input type="radio" value="m" name="gender">Male<br>
+     <td>
+        <select id="city" name="city"><option disabled selected>--Choose City--</option>
+            <optgroup label="Metros"><option>Chennai</option>
+                                     <option>Coimbatore</option>
+                                     <option>Madurai</option>
+                                     <option>Ramanathapuram</option>
+            </optgroup>
+            </select>
+     </td> <br>
+
+
+   
+ <!-- <button type="button" onclick="alert('Thanks for Login')">submit</button> <input type='reset'> -->
+  <input type='submit' value='submit' /> <input type ='reset'>
+</form>
+   <form action='/update' method='post'>
+           
+            
+    
+    <input type='text' name='name' placeholder='Your Username'/> <br>
+    <input type='text' name='mail' placeholder='Your Mail ID'/> <br>
+    <input type='submit' value='update' /> <br>
+
+<form action='/delete' method='post'>
+    <input type='text' name='name' placeholder='Your Username'/> <br>
+      <input type='submit' value='delete' /> <br>
+      </form> 
+      <form action='upload' method='post'>
+      <label>Choose a file:</label>
+  <input type="file"  name="filename"> <br>
+  <input type="submit">
+</form>
+
+    
+</body>
